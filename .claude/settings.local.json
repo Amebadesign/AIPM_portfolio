@@ -7,7 +7,8 @@
       "Bash(netstat:*)",
       "Bash(powershell -Command \"\\(Get-Content data.ts | Set-Content data_temp.ts\\) ; Remove-Item data.ts; Rename-Item data_temp.ts data.ts\")",
       "Bash(ls:*)",
-      "Bash(cd E:\\\\vscode\\\\vscode projects\\\\google ai studio\\\\portfolio_2602181800:*)"
+      "Bash(cd E:\\\\vscode\\\\vscode projects\\\\google ai studio\\\\portfolio_2602181800:*)",
+      "WebSearch"
     ]
   }
 }
