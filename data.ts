@@ -26,15 +26,15 @@ const aboutEn: AboutSection = {
       "span",
       { className: "font-semibold text-neutral-900" },
       "Design Creativity"
-    ),
+    _,
     " to ",
     React.createElement(
       "span",
       { className: "font-semibold text-neutral-900" },
       "AI Product"
-    ),
+    _,
     ",",
-    React.createElement("br"),
+    React.createElement("br"_,
     "always focusing on ",
     React.createElement(
       "span",
@@ -43,10 +43,10 @@ const aboutEn: AboutSection = {
           "font-semibold text-neutral-900 border-b-4 border-purple-200/80",
       },
       "How Technology Serves People"
-    )
-  ),
+    _
+  _,
   details:
-    "With a background in Art & Design from Tsinghua University (Bachelor's & Master's) and entrepreneurship in cultural consumption, I transitioned into the AI Product field. I am committed to building meaningful products, translating complex AI capabilities into simple, effective, human-centric solutions.",
+    "With a background in Art & Design from Tsinghua University_Bachelor's & Master's_ and entrepreneurship in cultural consumption, I transitioned into the AI Product field. I am committed to building meaningful products, translating complex AI capabilities into simple, effective, human-centric solutions.",
   stats: [
     {
       id: "s1",
@@ -65,7 +65,7 @@ const aboutEn: AboutSection = {
       icon: "Trophy",
       label: "Honors",
       title: "20+ Awards",
-      summary: "National Scholarship (Top 1%) x2",
+      summary: "National Scholarship_Top 1%_ x2",
       details: [
         "3x Tsinghua Academic Excellence Award",
         "2x Social Practice Excellence Scholarship",
@@ -100,15 +100,15 @@ const aboutZh: AboutSection = {
       "span",
       { className: "font-semibold text-neutral-900" },
       "设计创意"
-    ),
+    _,
     " 到 ",
     React.createElement(
       "span",
       { className: "font-semibold text-neutral-900" },
       "AI 产品"
-    ),
+    _,
     "，",
-    React.createElement("br"),
+    React.createElement("br"_,
     "始终关注",
     React.createElement(
       "span",
@@ -117,8 +117,8 @@ const aboutZh: AboutSection = {
           "font-semibold text-neutral-900 border-b-4 border-purple-200/80",
       },
       "技术如何服务于人"
-    )
-  ),
+    _
+  _,
   details:
     "拥有清华大学艺术设计学本硕+文创消费创业背景，我转型进入 AI 产品领域，致力于构建有意义的产品，将复杂的 AI 能力转化为简单有效、以人为本的解决方案。",
   stats: [
@@ -179,18 +179,18 @@ const projectsEn: Project[] = [
     system:
       "Business & Team: Built a 7-person interdisciplinary team from Tsinghua/PKU. Designed the 'AI + Psychology + IP' full-process business loop.",
     outcome:
-      "Stage Achievements: Valued at 30 million RMB. Selected for Beijing AI Origin Community Startup Camp. Won Top 10 Teams (Top Prize) at 2025 Tsinghua 'Design+' Innovation Competition.",
+      "Stage Achievements: Valued at 30 million RMB. Selected for Beijing AI Origin Community Startup Camp. Won Top 10 Teams_Top Prize_ at 2025 Tsinghua 'Design+' Innovation Competition.",
     tags: ["LLM", "Empathy Design", "RAG"],
     coverImage: "p1_cover.png",
     details: [
       {
         title: "Industry Research",
-        content: `With the spread of social atomization and digital socializing, a huge gap has emerged between the demand and supply of emotional companionship for young people, giving rise to a trillion-dollar "Loneliness Economy" market. We systematically analyzed tracks such as companion robots, AI chat apps, and psychological counseling platforms, finding that existing solutions generally suffer from "sensory disconnection" or "lack of professionalism". Meanwhile, we observed the successful trend of merging "Gamification" and "CBT (Cognitive Behavioral Therapy)" in digital health. Based on this, we judged that an AI product integrating <b>deep emotional interaction, scientific psychological frameworks, and gamified experiences</b> has the opportunity to define the next generation of personal growth tools.`,
+        content: `With the spread of social atomization and digital socializing, a huge gap has emerged between the demand and supply of emotional companionship for young people, giving rise to a trillion-dollar "Loneliness Economy" market. We systematically analyzed tracks such as companion robots, AI chat apps, and psychological counseling platforms, finding that existing solutions generally suffer from "sensory disconnection" or "lack of professionalism". Meanwhile, we observed the successful trend of merging "Gamification" and "CBT_Cognitive Behavioral Therapy_" in digital health. Based on this, we judged that an AI product integrating <b>deep emotional interaction, scientific psychological frameworks, and gamified experiences</b> has the opportunity to define the next generation of personal growth tools.`,
         images: ["p1_01_01.png", "p1_01_02.png"],
       },
       {
         title: "User Research",
-        content: `To precisely locate needs, I led the design of questionnaires covering psychological states, daily scenarios, and tech acceptance, collecting 300+ valid samples, and conducting in-depth interviews with 20 typical users. Analysis found that the pain point of target users (20-35 year old solitary youth in tier-1 cities) is not simply "no one to talk to", but the <b>lack of an immediate, safe, non-judgmental emotional outlet in specific high-pressure scenarios (e.g., late-night overtime, festive solitude)</b>, and a latent desire to improve their own emotional patterns. We thus output detailed user personas and behavioral reports.`,
+        content: `To precisely locate needs, I led the design of questionnaires covering psychological states, daily scenarios, and tech acceptance, collecting 300+ valid samples, and conducting in-depth interviews with 20 typical users. Analysis found that the pain point of target users_20-35 year old solitary youth in tier-1 cities_ is not simply "no one to talk to", but the <b>lack of an immediate, safe, non-judgmental emotional outlet in specific high-pressure scenarios_e.g., late-night overtime, festive solitude_</b>, and a latent desire to improve their own emotional patterns. We thus output detailed user personas and behavioral reports.`,
         images: ["p1_02_01.png", "p1_02_02.png"],
       },
       {
@@ -212,11 +212,11 @@ const projectsEn: Project[] = [
         title: "Technical Solution",
         content: `In the early stage with highly limited resources, to ensure core product logic could be verified at lowest cost and fastest speed, I led a <b>"Phased, Progressive" technical path</b>:
 
-<b>Current Stage (Implemented): Prompt Engineering driving core interactions</b>
-We first used mature third-party LLM APIs (e.g., DeepSeek) and through careful Prompt Engineering, systematically translated psychological knowledge (PEAR framework) into structured prompts, allowing us to build an MVP with zero algorithm team investment that simulates "Empathy" and "Cognitive Guidance".
+<b>Current Stage_Implemented_: Prompt Engineering driving core interactions</b>
+We first used mature third-party LLM APIs_e.g., DeepSeek_ and through careful Prompt Engineering, systematically translated psychological knowledge_PEAR framework_ into structured prompts, allowing us to build an MVP with zero algorithm team investment that simulates "Empathy" and "Cognitive Guidance".
 
 <b>Mid-term Plan: Introducing RAG for professionalism and personalization</b>
-We plan to introduce RAG (Retrieval-Augmented Generation), using professional psychological knowledge bases and user personal growth records as external knowledge sources.
+We plan to introduce RAG_Retrieval-Augmented Generation_, using professional psychological knowledge bases and user personal growth records as external knowledge sources.
 
 <b>Long-term Vision: Data Flywheel fine-tuning specific vertical models</b>
 After accumulating data assets, we plan to train a lightweight domain model via SFT or LoRA.
@@ -231,11 +231,11 @@ The entire technical solution reflects the principle of <b>"Validating product v
       },
       {
         title: "MVP Development",
-        content: `<b>1.0 Hardware Prototype (Completed):</b>
+        content: `<b>1.0 Hardware Prototype_Completed_:</b>
 To verify "Physical Interaction", we built a desktop robot prototype. It helped us realize the high cost of hardware and pivoted us towards software.
 
-<b>2.0 Software Prototype (In Progress):</b>
-I am leading the definition of a lightweight software form (Mini Program). Core functions realized: Empathic Dialogue with IP characters, Gamified Tasks for self-awareness, and Mood Diaries. This prototype validated the "Gamified Dialogue-Driven Cognitive Awareness" interaction mode.`,
+<b>2.0 Software Prototype_In Progress_:</b>
+I am leading the definition of a lightweight software form_Mini Program_. Core functions realized: Empathic Dialogue with IP characters, Gamified Tasks for self-awareness, and Mood Diaries. This prototype validated the "Gamified Dialogue-Driven Cognitive Awareness" interaction mode.`,
         images: ["p1_08_01.png", "p1_08_02.png"],
       },
       {
@@ -245,7 +245,7 @@ I am leading the definition of a lightweight software form (Mini Program). Core 
       },
       {
         title: "Project Management",
-        content: `Built a 7-person interdisciplinary team (Psychology, CS, Design). I was responsible for the Product Roadmap and Monthly Plans, managing risks through regular meetings. Managed external affairs (Business Plans, Competitions, Investors) ensuring efficient progress towards goals with limited resources.`,
+        content: `Built a 7-person interdisciplinary team_Psychology, CS, Design_. I was responsible for the Product Roadmap and Monthly Plans, managing risks through regular meetings. Managed external affairs_Business Plans, Competitions, Investors_ ensuring efficient progress towards goals with limited resources.`,
       },
       {
         title: "Stage Achievements",
@@ -279,17 +279,17 @@ I am leading the definition of a lightweight software form (Mini Program). Core 
       },
       {
         title: "Product Design",
-        content: `I abandoned direct questions, designing 5 Progressive Open-ended Questions based on <b>Psychological Projection Theory</b> and <b>Compensatory Fantasy</b> principles (e.g., "If you had a parallel avatar..."). This projects inner needs without pressure. I dismantled each question into directions and sub-motives, building a granular "Semantic-Trait" Mapping Matrix. The core is transforming a casual chat into a structured psychological observation.`,
+        content: `I abandoned direct questions, designing 5 Progressive Open-ended Questions based on <b>Psychological Projection Theory</b> and <b>Compensatory Fantasy</b> principles_e.g., "If you had a parallel avatar..."_. This projects inner needs without pressure. I dismantled each question into directions and sub-motives, building a granular "Semantic-Trait" Mapping Matrix. The core is transforming a casual chat into a structured psychological observation.`,
         image: "https://picsum.photos/seed/p2_design/800/600",
       },
       {
         title: "Algorithm Logic",
-        content: `The "Brain" of the project. I led the construction of the Dynamic Mapping Logic from <b>Natural Language Answer to 16-Dimensional Personality Score</b>. Key steps: 1) <b>Motive Recognition</b>: Determine answer direction; 2) <b>Dynamic Scoring</b>: Call scoring vectors covering Big Five, MBTI, Attachment Types; 3) <b>Weighted Integration</b>: Handle mixed motives. I established detailed scoring verification rules to ensure scientific validity.`,
+        content: `The "Brain" of the project. I led the construction of the Dynamic Mapping Logic from <b>Natural Language Answer to 16-Dimensional Personality Score</b>. Key steps: 1_ <b>Motive Recognition</b>: Determine answer direction; 2_ <b>Dynamic Scoring</b>: Call scoring vectors covering Big Five, MBTI, Attachment Types; 3_ <b>Weighted Integration</b>: Handle mixed motives. I established detailed scoring verification rules to ensure scientific validity.`,
         image: "https://picsum.photos/seed/p2_logic/800/600",
       },
       {
         title: "System Implementation",
-        content: `As Product Lead, I coordinated dev teams. 1) <b>Define Data Structures</b>: Question banks, mapping tables, API fields; 2) <b>Connect Workflow</b>: "Input -> Intent -> Motive -> Score -> Report"; 3) <b>Establish Evaluation System</b>: Designed accuracy metrics based on user feedback to drive algorithm optimization.`,
+        content: `As Product Lead, I coordinated dev teams. 1_ <b>Define Data Structures</b>: Question banks, mapping tables, API fields; 2_ <b>Connect Workflow</b>: "Input -> Intent -> Motive -> Score -> Report"; 3_ <b>Establish Evaluation System</b>: Designed accuracy metrics based on user feedback to drive algorithm optimization.`,
       },
       {
         title: "Project Outcomes",
@@ -304,7 +304,7 @@ I am leading the definition of a lightweight software form (Mini Program). Core 
     category: "AIGC & Commercialization",
     date: "Mar 2023 - Feb 2025",
     summary:
-      "To address the pain point of 'no design, no product system' in intangible cultural heritage (ICH) lacquer craft, I founded this brand. Combining AI technology, I developed a product matrix of 100+ SKUs covering jewelry, tea sets, and furniture, targeting B-side gifting and C-side consumer markets, promoting the productization and commercialization of traditional crafts.",
+      "To address the pain point of 'no design, no product system' in intangible cultural heritage_ICH_ lacquer craft, I founded this brand. Combining AI technology, I developed a product matrix of 100+ SKUs covering jewelry, tea sets, and furniture, targeting B-side gifting and C-side consumer markets, promoting the productization and commercialization of traditional crafts.",
     background:
       "Problem: Cultural redesign is manual, slow, and expensive. ICH faces a lack of modern design systems.",
     role: "Founder / Product Lead",
@@ -317,7 +317,7 @@ I am leading the definition of a lightweight software form (Mini Program). Core 
     details: [
       {
         title: "Market Analysis & Positioning",
-        content: `Intangible cultural heritage (ICH) lacquer craft faces the dilemma of "having craft but no design". With the rise of "Guochao", demand for cultural products is surging. The brand is positioned as an <b>"Intangible Cultural Heritage Craft + Contemporary Design + AI Empowerment" cultural consumer brand</b>, targeting B-side corporate gifting and C-side cultural consumers, aiming to bring lacquer craft back to daily life.`,
+        content: `Intangible cultural heritage_ICH_ lacquer craft faces the dilemma of "having craft but no design". With the rise of "Guochao", demand for cultural products is surging. The brand is positioned as an <b>"Intangible Cultural Heritage Craft + Contemporary Design + AI Empowerment" cultural consumer brand</b>, targeting B-side corporate gifting and C-side cultural consumers, aiming to bring lacquer craft back to daily life.`,
         images: ["p3_01_01.png", "p3_01_02.png"],
       },
       {
@@ -326,7 +326,7 @@ I am leading the definition of a lightweight software form (Mini Program). Core 
       },
       {
         title: "Product Definition & Planning",
-        content: `We planned four categories: Jewelry, Tea Sets, Stationery, and Home Decor. By translating classic patterns like Dunhuang and Chu Culture, we formed IP series. In execution, we are <b>Using AI image generation technology (like Midjourney) to assist pattern design and style testing, rapidly iterating solutions that fit modern aesthetics</b>, successfully developing 100+ SKUs.`,
+        content: `We planned four categories: Jewelry, Tea Sets, Stationery, and Home Decor. By translating classic patterns like Dunhuang and Chu Culture, we formed IP series. In execution, we are <b>Using AI image generation technology_like Midjourney_ to assist pattern design and style testing, rapidly iterating solutions that fit modern aesthetics</b>, successfully developing 100+ SKUs.`,
         images: ["p3_03_01.png", "p3_03_02.png"],
       },
       {
@@ -351,7 +351,7 @@ I am leading the definition of a lightweight software form (Mini Program). Core 
       },
       {
         title: "Achievements",
-        content: `Achieved six-figure revenue (B-side + C-side). Won 1st Prize in Beijing & National Bronze in Innovation Competition. Incubated by Tsinghua x-lab. These results <b>marking the initial success of the "AI + Intangible Heritage" commercialization path, providing a replicable model for the digital transformation of traditional crafts</b>.`,
+        content: `Achieved six-figure revenue_B-side + C-side_. Won 1st Prize in Beijing & National Bronze in Innovation Competition. Incubated by Tsinghua x-lab. These results <b>marking the initial success of the "AI + Intangible Heritage" commercialization path, providing a replicable model for the digital transformation of traditional crafts</b>.`,
       },
     ],
   },
@@ -478,12 +478,12 @@ const projectsZh: Project[] = [
       },
       {
         title: "算法逻辑",
-        content: `这是项目的“大脑”。我主导构建了从<b>自然语言回答到16维人格分数</b>的动态映射逻辑。关键在于：1) <b>动机识别</b>：系统需先判定用户回答归属于哪个预设方向及子动机；2) <b>动态赋分</b>：根据动机调用对应的赋分向量，该向量涵盖大五人格、MBTI、依恋类型等16个维度；3) <b>加权集成</b>：支持用户混合动机回答，算法能按提及比例自动加权计算。为确保科学性，我制定了详细的赋分核验规则，并进行了多轮迭代。例如，规则明确“用户描述的未来进步，反映的是当前不足”，从而确保映射的是真实状态而非理想自我。`,
+        content: `这是项目的“大脑”。我主导构建了从<b>自然语言回答到16维人格分数</b>的动态映射逻辑。关键在于：1_ <b>动机识别</b>：系统需先判定用户回答归属于哪个预设方向及子动机；2_ <b>动态赋分</b>：根据动机调用对应的赋分向量，该向量涵盖大五人格、MBTI、依恋类型等16个维度；3_ <b>加权集成</b>：支持用户混合动机回答，算法能按提及比例自动加权计算。为确保科学性，我制定了详细的赋分核验规则，并进行了多轮迭代。例如，规则明确“用户描述的未来进步，反映的是当前不足”，从而确保映射的是真实状态而非理想自我。`,
         image: "p2_03.png",
       },
       {
         title: "系统实现",
-        content: `我作为产品负责人，协调技术人员，将设计逻辑落地为可运行的系统。工作包括：1) <b>定义数据结构</b>：设计并交付清晰的问题库、映射表、分析报告语料库等（举例如下图）；2) <b>串联工作流</b>：明确“用户输入→意图识别→动机匹配→分数计算→报告生成”的全流程技术方案与API调用逻辑；3) <b>建立评估体系</b>：为验证效果，我设计了基于用户反馈的准确率评价指标（如“报告是否说中了你？”），推动建立数据回收与分析通道，用实证数据驱动算法优化。`,
+        content: `我作为产品负责人，协调技术人员，将设计逻辑落地为可运行的系统。工作包括：1_ <b>定义数据结构</b>：设计并交付清晰的问题库、映射表、分析报告语料库等（举例如下图）；2_ <b>串联工作流</b>：明确“用户输入→意图识别→动机匹配→分数计算→报告生成”的全流程技术方案与API调用逻辑；3_ <b>建立评估体系</b>：为验证效果，我设计了基于用户反馈的准确率评价指标（如“报告是否说中了你？”），推动建立数据回收与分析通道，用实证数据驱动算法优化。`,
         image: "p2_04.png",
       },
       {
@@ -558,21 +558,21 @@ const aiCategoriesEn: AICategory[] = [
     title: "Art Design",
     description:
       "Exploring form and aesthetics through Midjourney. Studies in classical shapes, surreal landscapes, and modern product concepts.",
-    coverImage: "aigc1_art_design (1).png",
+    coverImage: "aigc1_art_design_1_.png",
   },
   {
     id: "graphic",
     title: "Graphic Design",
     description:
       "Visual communication experiments. Abstract fluid compositions, texture simulations, and layout exploration.",
-    coverImage: "aigc2_graphic_design (1).png",
+    coverImage: "aigc2_graphic_design_1_.png",
   },
   {
     id: "fiction",
     title: "Interactive Fiction",
     description:
       "Character and scene generation for narrative games. Maintaining consistent styles across diverse story branches.",
-    coverImage: "aigc3_interactive_novel (1).png",
+    coverImage: "aigc3_interactive_novel_1_.png",
   },
   {
     id: "app",
@@ -589,21 +589,21 @@ const aiCategoriesZh: AICategory[] = [
     title: "艺术设计",
     description:
       "通过 Midjourney 探索形式与美学。包括传统器型再造、超现实景观生成及未来产品形态推演。",
-    coverImage: "aigc1_art_design (1).png",
+    coverImage: "aigc1_art_design_1_.png",
   },
   {
     id: "graphic",
     title: "平面设计",
     description:
       "视觉传达的 AI 实验。涵盖抽象流体构成、极致材质模拟及版式设计探索。",
-    coverImage: "aigc2_graphic_design (1).png",
+    coverImage: "aigc2_graphic_design_1_.png",
   },
   {
     id: "fiction",
     title: "互动小说",
     description:
       "叙事类游戏的视觉资产生成。专注于角色一致性保持与沉浸式场景构建。",
-    coverImage: "aigc3_interactive_novel (1).png",
+    coverImage: "aigc3_interactive_novel_1_.png",
   },
   {
     id: "app",
@@ -618,7 +618,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w1",
     title: "Art Design 01",
-    imageUrl: "aigc1_art_design (1).png",
+    imageUrl: "aigc1_art_design_1_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -626,7 +626,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w2",
     title: "Art Design 02",
-    imageUrl: "aigc1_art_design (2).png",
+    imageUrl: "aigc1_art_design_2_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -634,7 +634,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w3",
     title: "Art Design 03",
-    imageUrl: "aigc1_art_design (3).png",
+    imageUrl: "aigc1_art_design_3_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -642,7 +642,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w4",
     title: "Art Design 04",
-    imageUrl: "aigc1_art_design (4).png",
+    imageUrl: "aigc1_art_design_4_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -650,7 +650,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w5",
     title: "Art Design 05",
-    imageUrl: "aigc1_art_design (5).png",
+    imageUrl: "aigc1_art_design_5_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -658,7 +658,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w6",
     title: "Art Design 06",
-    imageUrl: "aigc1_art_design (6).png",
+    imageUrl: "aigc1_art_design_6_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -666,7 +666,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w7",
     title: "Art Design 07",
-    imageUrl: "aigc1_art_design (7).png",
+    imageUrl: "aigc1_art_design_7_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -674,7 +674,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w8",
     title: "Art Design 08",
-    imageUrl: "aigc1_art_design (8).png",
+    imageUrl: "aigc1_art_design_8_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -682,7 +682,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w9",
     title: "Art Design 09",
-    imageUrl: "aigc1_art_design (9).png",
+    imageUrl: "aigc1_art_design_9_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -690,7 +690,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w10",
     title: "Art Design 10",
-    imageUrl: "aigc1_art_design (10).png",
+    imageUrl: "aigc1_art_design_10_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -698,7 +698,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w11",
     title: "Art Design 11",
-    imageUrl: "aigc1_art_design (11).png",
+    imageUrl: "aigc1_art_design_11_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -706,7 +706,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w12",
     title: "Art Design 12",
-    imageUrl: "aigc1_art_design (12).png",
+    imageUrl: "aigc1_art_design_12_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -714,7 +714,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w13",
     title: "Art Design 13",
-    imageUrl: "aigc1_art_design (13).png",
+    imageUrl: "aigc1_art_design_13_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -722,7 +722,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w14",
     title: "Art Design 14",
-    imageUrl: "aigc1_art_design (14).png",
+    imageUrl: "aigc1_art_design_14_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -730,7 +730,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w15",
     title: "Art Design 15",
-    imageUrl: "aigc1_art_design (15).png",
+    imageUrl: "aigc1_art_design_15_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -738,7 +738,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w16",
     title: "Art Design 16",
-    imageUrl: "aigc1_art_design (16).png",
+    imageUrl: "aigc1_art_design_16_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -746,7 +746,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w17",
     title: "Art Design 17",
-    imageUrl: "aigc1_art_design (17).png",
+    imageUrl: "aigc1_art_design_17_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -754,7 +754,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w18",
     title: "Art Design 18",
-    imageUrl: "aigc1_art_design (18).png",
+    imageUrl: "aigc1_art_design_18_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -762,7 +762,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w19",
     title: "Art Design 19",
-    imageUrl: "aigc1_art_design (19).png",
+    imageUrl: "aigc1_art_design_19_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -770,7 +770,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w20",
     title: "Art Design 20",
-    imageUrl: "aigc1_art_design (20).png",
+    imageUrl: "aigc1_art_design_20_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -778,7 +778,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w21",
     title: "Art Design 21",
-    imageUrl: "aigc1_art_design (21).png",
+    imageUrl: "aigc1_art_design_21_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -786,7 +786,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w22",
     title: "Art Design 22",
-    imageUrl: "aigc1_art_design (22).png",
+    imageUrl: "aigc1_art_design_22_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -794,7 +794,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w23",
     title: "Art Design 23",
-    imageUrl: "aigc1_art_design (23).png",
+    imageUrl: "aigc1_art_design_23_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -802,7 +802,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w24",
     title: "Art Design 24",
-    imageUrl: "aigc1_art_design (24).png",
+    imageUrl: "aigc1_art_design_24_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -810,7 +810,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "w25",
     title: "Art Design 25",
-    imageUrl: "aigc1_art_design (25).png",
+    imageUrl: "aigc1_art_design_25_.png",
     tool: "Midjourney",
     description: "AI-generated art design.",
     category: "art",
@@ -818,7 +818,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "g1",
     title: "Graphic Design 01",
-    imageUrl: "aigc2_graphic_design (1).png",
+    imageUrl: "aigc2_graphic_design_1_.png",
     tool: "Midjourney",
     description: "AI-generated graphic design.",
     category: "graphic",
@@ -826,7 +826,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "g2",
     title: "Graphic Design 02",
-    imageUrl: "aigc2_graphic_design (2).png",
+    imageUrl: "aigc2_graphic_design_2_.png",
     tool: "Midjourney",
     description: "AI-generated graphic design.",
     category: "graphic",
@@ -834,7 +834,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "g3",
     title: "Graphic Design 03",
-    imageUrl: "aigc2_graphic_design (3).png",
+    imageUrl: "aigc2_graphic_design_3_.png",
     tool: "Midjourney",
     description: "AI-generated graphic design.",
     category: "graphic",
@@ -842,7 +842,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "g4",
     title: "Graphic Design 04",
-    imageUrl: "aigc2_graphic_design (4).png",
+    imageUrl: "aigc2_graphic_design_4_.png",
     tool: "Midjourney",
     description: "AI-generated graphic design.",
     category: "graphic",
@@ -850,7 +850,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "g5",
     title: "Graphic Design 05",
-    imageUrl: "aigc2_graphic_design (5).png",
+    imageUrl: "aigc2_graphic_design_5_.png",
     tool: "Midjourney",
     description: "AI-generated graphic design.",
     category: "graphic",
@@ -858,7 +858,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "g6",
     title: "Graphic Design 06",
-    imageUrl: "aigc2_graphic_design (6).png",
+    imageUrl: "aigc2_graphic_design_6_.png",
     tool: "Midjourney",
     description: "AI-generated graphic design.",
     category: "graphic",
@@ -866,7 +866,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "g7",
     title: "Graphic Design 07",
-    imageUrl: "aigc2_graphic_design (7).png",
+    imageUrl: "aigc2_graphic_design_7_.png",
     tool: "Midjourney",
     description: "AI-generated graphic design.",
     category: "graphic",
@@ -874,7 +874,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "g8",
     title: "Graphic Design 08",
-    imageUrl: "aigc2_graphic_design (8).png",
+    imageUrl: "aigc2_graphic_design_8_.png",
     tool: "Midjourney",
     description: "AI-generated graphic design.",
     category: "graphic",
@@ -882,7 +882,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "g9",
     title: "Graphic Design 09",
-    imageUrl: "aigc2_graphic_design (9).png",
+    imageUrl: "aigc2_graphic_design_9_.png",
     tool: "Midjourney",
     description: "AI-generated graphic design.",
     category: "graphic",
@@ -890,7 +890,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "g10",
     title: "Graphic Design 10",
-    imageUrl: "aigc2_graphic_design (10).png",
+    imageUrl: "aigc2_graphic_design_10_.png",
     tool: "Midjourney",
     description: "AI-generated graphic design.",
     category: "graphic",
@@ -898,7 +898,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "f1",
     title: "Interactive Fiction 01",
-    imageUrl: "aigc3_interactive_novel (1).png",
+    imageUrl: "aigc3_interactive_novel_1_.png",
     tool: "Midjourney",
     description: "AI-generated interactive fiction.",
     category: "fiction",
@@ -906,7 +906,7 @@ const aiWorksEn: AIGeneratedWork[] = [
   {
     id: "f2",
     title: "Interactive Fiction 02",
-    imageUrl: "aigc3_interactive_novel (2).png",
+    imageUrl: "aigc3_interactive_novel_2_.png",
     tool: "Midjourney",
     description: "AI-generated interactive fiction.",
     category: "fiction",
@@ -960,7 +960,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w1",
     title: "艺术设计 01",
-    imageUrl: "aigc1_art_design (1).png",
+    imageUrl: "aigc1_art_design_1_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -968,7 +968,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w2",
     title: "艺术设计 02",
-    imageUrl: "aigc1_art_design (2).png",
+    imageUrl: "aigc1_art_design_2_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -976,7 +976,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w3",
     title: "艺术设计 03",
-    imageUrl: "aigc1_art_design (3).png",
+    imageUrl: "aigc1_art_design_3_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -984,7 +984,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w4",
     title: "艺术设计 04",
-    imageUrl: "aigc1_art_design (4).png",
+    imageUrl: "aigc1_art_design_4_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -992,7 +992,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w5",
     title: "艺术设计 05",
-    imageUrl: "aigc1_art_design (5).png",
+    imageUrl: "aigc1_art_design_5_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1000,7 +1000,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w6",
     title: "艺术设计 06",
-    imageUrl: "aigc1_art_design (6).png",
+    imageUrl: "aigc1_art_design_6_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1008,7 +1008,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w7",
     title: "艺术设计 07",
-    imageUrl: "aigc1_art_design (7).png",
+    imageUrl: "aigc1_art_design_7_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1016,7 +1016,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w8",
     title: "艺术设计 08",
-    imageUrl: "aigc1_art_design (8).png",
+    imageUrl: "aigc1_art_design_8_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1024,7 +1024,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w9",
     title: "艺术设计 09",
-    imageUrl: "aigc1_art_design (9).png",
+    imageUrl: "aigc1_art_design_9_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1032,7 +1032,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w10",
     title: "艺术设计 10",
-    imageUrl: "aigc1_art_design (10).png",
+    imageUrl: "aigc1_art_design_10_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1040,7 +1040,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w11",
     title: "艺术设计 11",
-    imageUrl: "aigc1_art_design (11).png",
+    imageUrl: "aigc1_art_design_11_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1048,7 +1048,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w12",
     title: "艺术设计 12",
-    imageUrl: "aigc1_art_design (12).png",
+    imageUrl: "aigc1_art_design_12_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1056,7 +1056,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w13",
     title: "艺术设计 13",
-    imageUrl: "aigc1_art_design (13).png",
+    imageUrl: "aigc1_art_design_13_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1064,7 +1064,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w14",
     title: "艺术设计 14",
-    imageUrl: "aigc1_art_design (14).png",
+    imageUrl: "aigc1_art_design_14_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1072,7 +1072,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w15",
     title: "艺术设计 15",
-    imageUrl: "aigc1_art_design (15).png",
+    imageUrl: "aigc1_art_design_15_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1080,7 +1080,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w16",
     title: "艺术设计 16",
-    imageUrl: "aigc1_art_design (16).png",
+    imageUrl: "aigc1_art_design_16_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1088,7 +1088,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w17",
     title: "艺术设计 17",
-    imageUrl: "aigc1_art_design (17).png",
+    imageUrl: "aigc1_art_design_17_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1096,7 +1096,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w18",
     title: "艺术设计 18",
-    imageUrl: "aigc1_art_design (18).png",
+    imageUrl: "aigc1_art_design_18_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1104,7 +1104,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w19",
     title: "艺术设计 19",
-    imageUrl: "aigc1_art_design (19).png",
+    imageUrl: "aigc1_art_design_19_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1112,7 +1112,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w20",
     title: "艺术设计 20",
-    imageUrl: "aigc1_art_design (20).png",
+    imageUrl: "aigc1_art_design_20_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1120,7 +1120,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w21",
     title: "艺术设计 21",
-    imageUrl: "aigc1_art_design (21).png",
+    imageUrl: "aigc1_art_design_21_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1128,7 +1128,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w22",
     title: "艺术设计 22",
-    imageUrl: "aigc1_art_design (22).png",
+    imageUrl: "aigc1_art_design_22_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1136,7 +1136,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w23",
     title: "艺术设计 23",
-    imageUrl: "aigc1_art_design (23).png",
+    imageUrl: "aigc1_art_design_23_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1144,7 +1144,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w24",
     title: "艺术设计 24",
-    imageUrl: "aigc1_art_design (24).png",
+    imageUrl: "aigc1_art_design_24_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1152,7 +1152,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "w25",
     title: "艺术设计 25",
-    imageUrl: "aigc1_art_design (25).png",
+    imageUrl: "aigc1_art_design_25_.png",
     tool: "Midjourney",
     description: "AI生成的艺术设计作品。",
     category: "art",
@@ -1160,7 +1160,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "g1",
     title: "平面设计 01",
-    imageUrl: "aigc2_graphic_design (1).png",
+    imageUrl: "aigc2_graphic_design_1_.png",
     tool: "Midjourney",
     description: "AI生成的平面设计作品。",
     category: "graphic",
@@ -1168,7 +1168,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "g2",
     title: "平面设计 02",
-    imageUrl: "aigc2_graphic_design (2).png",
+    imageUrl: "aigc2_graphic_design_2_.png",
     tool: "Midjourney",
     description: "AI生成的平面设计作品。",
     category: "graphic",
@@ -1176,7 +1176,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "g3",
     title: "平面设计 03",
-    imageUrl: "aigc2_graphic_design (3).png",
+    imageUrl: "aigc2_graphic_design_3_.png",
     tool: "Midjourney",
     description: "AI生成的平面设计作品。",
     category: "graphic",
@@ -1184,7 +1184,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "g4",
     title: "平面设计 04",
-    imageUrl: "aigc2_graphic_design (4).png",
+    imageUrl: "aigc2_graphic_design_4_.png",
     tool: "Midjourney",
     description: "AI生成的平面设计作品。",
     category: "graphic",
@@ -1192,7 +1192,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "g5",
     title: "平面设计 05",
-    imageUrl: "aigc2_graphic_design (5).png",
+    imageUrl: "aigc2_graphic_design_5_.png",
     tool: "Midjourney",
     description: "AI生成的平面设计作品。",
     category: "graphic",
@@ -1200,7 +1200,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "g6",
     title: "平面设计 06",
-    imageUrl: "aigc2_graphic_design (6).png",
+    imageUrl: "aigc2_graphic_design_6_.png",
     tool: "Midjourney",
     description: "AI生成的平面设计作品。",
     category: "graphic",
@@ -1208,7 +1208,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "g7",
     title: "平面设计 07",
-    imageUrl: "aigc2_graphic_design (7).png",
+    imageUrl: "aigc2_graphic_design_7_.png",
     tool: "Midjourney",
     description: "AI生成的平面设计作品。",
     category: "graphic",
@@ -1216,7 +1216,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "g8",
     title: "平面设计 08",
-    imageUrl: "aigc2_graphic_design (8).png",
+    imageUrl: "aigc2_graphic_design_8_.png",
     tool: "Midjourney",
     description: "AI生成的平面设计作品。",
     category: "graphic",
@@ -1224,7 +1224,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "g9",
     title: "平面设计 09",
-    imageUrl: "aigc2_graphic_design (9).png",
+    imageUrl: "aigc2_graphic_design_9_.png",
     tool: "Midjourney",
     description: "AI生成的平面设计作品。",
     category: "graphic",
@@ -1232,7 +1232,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "g10",
     title: "平面设计 10",
-    imageUrl: "aigc2_graphic_design (10).png",
+    imageUrl: "aigc2_graphic_design_10_.png",
     tool: "Midjourney",
     description: "AI生成的平面设计作品。",
     category: "graphic",
@@ -1240,7 +1240,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "f1",
     title: "互动小说 01",
-    imageUrl: "aigc3_interactive_novel (1).png",
+    imageUrl: "aigc3_interactive_novel_1_.png",
     tool: "Midjourney",
     description: "AI生成的互动小说作品。",
     category: "fiction",
@@ -1248,7 +1248,7 @@ const aiWorksZh: AIGeneratedWork[] = [
   {
     id: "f2",
     title: "互动小说 02",
-    imageUrl: "aigc3_interactive_novel (2).png",
+    imageUrl: "aigc3_interactive_novel_2_.png",
     tool: "Midjourney",
     description: "AI生成的互动小说作品。",
     category: "fiction",
@@ -1361,14 +1361,14 @@ export const content = {
         React.Fragment,
         null,
         "Connecting User Needs ",
-        React.createElement("br"),
+        React.createElement("br"_,
         React.createElement(
           "span",
           { className: "text-neutral-400 italic font-serif" },
           "with"
-        ),
+        _,
         " Intelligent Tech"
-      ),
+      _,
       tags: [
         "AI Product",
         "User Experience",
@@ -1387,7 +1387,7 @@ export const content = {
       projects: "Projects",
       methods: "Philosophy",
       contact: "Contact",
-      downloadResume: "Download Resume (PDF)",
+      downloadResume: "Download Resume_PDF_",
       getInTouch: "Contact",
       copyright: "Designed & Engineered with React.",
       selectedProjects: "Selected Projects",
@@ -1430,14 +1430,14 @@ export const content = {
         React.Fragment,
         null,
         "连接人本体验 ",
-        React.createElement("br"),
+        React.createElement("br"_,
         React.createElement(
           "span",
           { className: "text-neutral-400 italic font-serif" },
           "with"
-        ),
+        _,
         " 智能技术"
-      ),
+      _,
       tags: [
         "人工智能",
         "产品设计",
@@ -1457,13 +1457,13 @@ export const content = {
       projects: "项目经历",
       methods: "产品理念",
       contact: "联系方式",
-      downloadResume: "下载简历 (PDF)",
+      downloadResume: "下载简历_PDF_",
       getInTouch: "联系方式",
       copyright: "基于 React 设计与开发",
       selectedProjects: "主要项目",
       projectsDesc: "精选实战项目：将用户需求转化为落地的 AI 产品。",
       sideProjects: "个人探索",
-      sideProjectsDesc: "目前正在研究：用于个人知识管理的智能体(Agent)。",
+      sideProjectsDesc: "目前正在研究：用于个人知识管理的智能体(Agent_。",
       comingSoon: "敬请期待",
       aiWorks: "AIGC 创意",
       aiWorksDesc:
