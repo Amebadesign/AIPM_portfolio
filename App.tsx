@@ -2,6 +2,7 @@ import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Internship from './components/Internship';
 import Projects from './components/Projects';
 import AiGallery from './components/AiGallery';
 import Methods from './components/Methods';
@@ -13,6 +14,7 @@ import { LanguageProvider } from './contexts/LanguageContext';
 const Home = () => (
   <>
     <Hero />
+    <Internship />
     <Projects />
     <AiGallery />
     <Methods />

@@ -77,6 +77,7 @@ const Navbar: React.FC = () => {
 
           <div className="flex items-center space-x-10 text-sm">
             <button onClick={() => handleNavClick('about')} className={`transition-colors hidden md:block ${navLinkClass}`}>{t.labels.about}</button>
+            <button onClick={() => handleNavClick('internship')} className={`transition-colors hidden md:block ${navLinkClass}`}>{t.labels.internship}</button>
             <button onClick={() => handleNavClick('projects')} className={`transition-colors hidden md:block ${navLinkClass}`}>{t.labels.projects}</button>
             <button onClick={() => handleNavClick('ai-works')} className={`transition-colors hidden md:block ${navLinkClass}`}>{t.labels.aiWorks}</button>
             <button onClick={() => handleNavClick('methods')} className={`transition-colors hidden md:block ${navLinkClass}`}>{t.labels.methods}</button>

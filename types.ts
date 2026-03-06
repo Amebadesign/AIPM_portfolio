@@ -88,8 +88,28 @@ export interface AboutSection {
   };
 }
 
+export interface InternshipDimension {
+  icon: 'Target' | 'Lightbulb' | 'Cpu' | 'Shield';
+  title: string;
+  criteria: {
+    name: string;
+    description: string;
+  }[];
+}
+
+export interface InternshipInfo {
+  company: string;
+  location: string;
+  date: string;
+  role: string;
+  dimensionsLabel: string;
+  dimensions: InternshipDimension[];
+  reasons: string[];
+}
+
 export interface SectionLabels {
   about: string;
+  internship: string;
   projects: string;
   methods: string;
   contact: string;
@@ -121,6 +141,11 @@ export interface SectionLabels {
   methodsTitle: string;
   methodsSubtitle: string;
   expertiseTitle: string;
+  internshipTitle: string;
+  internshipSubtitle: string;
+  internshipRole: string;
+  internshipReasons: string;
+  evaluationCriteria: string;
   backToHome: string;
   viewCase: string;
 }
